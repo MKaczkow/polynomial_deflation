@@ -1,3 +1,5 @@
-Polynomial deflation and related problems with Matlab
+Polynomial deflation and related problems with Matlab  
 
-Coded for WNUM course at '20 Spring semester
+Coded for WNUM course at '20 Spring semester  
+
+Contains work in Polish
