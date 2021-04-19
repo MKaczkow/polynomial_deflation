@@ -2,11 +2,11 @@ clc
 clear all
 
 coefficients0 = [1, 9, -59, -1155, 1316, 44308, -162720];
-p_roots = transpose(roots(coefficients0)); %pierwiastki uzyskane z roots, w kolejnoœci sa to -8+7j, -8-7j, -9, 8, 4+2j, 4-2j
+p_roots = transpose(roots(coefficients0)); %pierwiastki uzyskane z roots, w kolejnoÅ“ci sa to -8+7j, -8-7j, -9, 8, 4+2j, 4-2j
 c_roots = zeros(1,6); %miejsce na pierwiastki obliczone metodami iteracyjnymi
 
-%przyblizenie calkowite wartosci p_roots(przy u¿yciu format long widaæ, ¿e
-%procedura roots nie daje dok³adnie wartoœci ca³kowitych pierwiastków
+%przyblizenie calkowite wartosci p_roots(przy uÂ¿yciu format long widaÃ¦, Â¿e
+%procedura roots nie daje dokÂ³adnie wartoÅ“ci caÂ³kowitych pierwiastkÃ³w
 for n = 1:6
 
     if isreal(p_roots(n))
@@ -180,7 +180,7 @@ while ((delta > Deltax) && (count<1000))
         break;
     end
     
-    %zamiast funkcji Inv() u¿yto dzielenia macierzy za pomoc¹ operatora '\'
+    %zamiast funkcji Inv() uÂ¿yto dzielenia macierzy za pomocÂ¹ operatora '\'
     wektor = M\v;
     
     a = wektor(1);
